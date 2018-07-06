@@ -33,8 +33,6 @@ header {
 .menu li .icons {
     float: left;
     padding: 0px 10px;
-    width: 33px;
-    height: 27px;
 }
 
 .menu li .icons img{
@@ -49,4 +47,27 @@ header {
 .icons-social {
     float: left;
     padding: 0px 5px;
+}
+
+.slide-secc {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.principal-img {
+    width: 100%;
+}
+
+.principal-img img{
+    width: 100%;
+}
+
+.cont-logo {
+    max-width: 284px;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
