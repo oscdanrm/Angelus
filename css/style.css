@@ -136,9 +136,14 @@ header {
 
 
 .globo-ayuda {
+    width: 25%;
     position: absolute;
     bottom: -25px;
     left: 60px;
+}
+
+.globo-ayuda img{
+   width: 100%;
 }
 
 .plazas-section {
@@ -146,9 +151,6 @@ header {
     background: #222e38;
     height: auto;
     padding: 30px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .content-plazas {
@@ -170,4 +172,77 @@ header {
 
 .square {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.cont-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mtop40 {
+    margin-top: 40px;
+}
+
+.mright10 {
+    margin-right: 10px;
+}
+
+.mleft10 {
+    margin-left: 10px;
+}
+
+.cont-square {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.img100 {
+    width: 100%;
+}
+
+.foot-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 40px 0px;
+}
+
+.cont-footer {
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.cont-logo-footer {
+    
+}
+
+.cont-text-footer {
+    margin: 10px 0px;
+}
+
+.dflex {
+    display: flex;
+}
+
+.cont-redes {
+    width: 80px;
+    margin: 0px auto;
+}
+
+.cont-redes div{
+   padding: 0px 5px;
 }
