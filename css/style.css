@@ -30,6 +30,10 @@ header {
  color: #9a9797;
 }
 
+.menu li a:hover{
+ color: #5881bd;
+}
+
 .menu {
     padding: 10px 0px;
     font-family: 'Montserrat', sans-serif;
@@ -92,6 +96,7 @@ header {
 
 .menu li .active {
     color:#5881bd;
+    font-weight: 800;
 }
 
 .gray {
@@ -245,4 +250,19 @@ header {
 
 .cont-redes div{
    padding: 0px 5px;
+}
+
+.mtop80 {
+    margin-top: 80px;
+}
+
+.full-flex {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.cont-slide-plaza {
+    width: 95%;
+    margin: 0px auto;
 }
