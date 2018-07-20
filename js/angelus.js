@@ -3,9 +3,11 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         dots: true,
-        loop: true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         dotsContainer:'.cont-dots',
         responsive:{
             0:{
