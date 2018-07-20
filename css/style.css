@@ -127,8 +127,8 @@ header {
     font-weight: 600;
 }
 
-.fs35 {
-    font-size: 2.5rem;
+.fs13 {
+    font-size: 1.3rem;
 }
 
 .light {
@@ -137,6 +137,10 @@ header {
 
 .fs20 {
     font-size: 1.5rem;
+}
+
+.fs35 {
+    font-size: 2.5rem;
 }
 
 
@@ -182,6 +186,13 @@ header {
     align-items: center;
     text-align: center;
     position: relative;
+}
+
+.square-block {
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -265,4 +276,88 @@ header {
 .cont-slide-plaza {
     width: 95%;
     margin: 0px auto;
+    position: relative;
+}
+
+.cont-slider {
+    height: 300px !important;
+    
+}
+
+.fs20 {
+    font-size: 2rem;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.back-blue {
+    background: #222e38;
+}
+
+.divition {
+    display: block;
+    height: 50%;
+    
+}
+
+.dflexcenter {
+    display: flex;
+    align-items: center;
+}
+
+.dark-blue {
+    color:  #222e38;
+}
+
+.cont-divition {
+    width: 75%;
+}
+
+.padding20 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.fs10 {
+    font-size: 1rem;
+}
+
+.container-dats {
+    
+}
+
+.cont-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    z-index: 10000;
+}
+
+.owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: none;
+}
+
+button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+
+.owl-dot.active > span{
+  background: #5881bd;
+  width: 15px;
+  height: 15px;
+    
 }
