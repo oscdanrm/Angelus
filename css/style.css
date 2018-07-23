@@ -22,7 +22,7 @@ header {
 
 .menu li {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
 .menu li a{
@@ -365,5 +365,81 @@ button.owl-dot {
 .cont-map {
     width: 100%;
     height: 400px;
+    
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    overflow: visible;
+    
+}
+
+
+.txtcenter {
+    text-align: center
+}
+
+.mtop20 {
+    margin-top: 20px;
+}
+
+.back-clear-blue {
+    background: #5c92c7;
+}
+
+.planes-section {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.contain-content-planes {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.cont-tabs {
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+    padding: 20px;
+    background: white;
+    font-size: 1.5rem;
+    color: #5c92c7;
+    font-weight: 700;
+}
+
+.img-plan img{
+    width: 100%;
+}
+
+.img-plan {
+    width: 40%;
+    position: relative;
+}
+
+.cont-info-tabs {
+    max-width: 900px;
+    height: auto;
+    padding: 60px;
+    background: #fff;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    
+}
+
+#tab2 {
+    display: none;
+}
+
+.text-top {
+    font-size: 1.4rem;
+     color: #9a9797
     
 }
