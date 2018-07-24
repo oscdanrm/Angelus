@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/angelus.js"></script>
+    <script type="text/javascript" src="js/planes.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8G0V27q13kYXTPhWBNxRuc9hM8iT3Ffk"></script>
 </head>
@@ -55,24 +55,108 @@
            </div>
         </section>
         
-        <section class="full-flex planes-section back-clear-blue">
+        <section class="full-flex planes-section">
             <div class="contain-content-planes">
                 <div class="cont-tabs">
                     <div class="tabs monserrat">
-                        <span class="tab">Plan Vitalicio</span>
-                        <span class="tab">Plan Vitalicio</span>
+                        <span id="tab-1" class="tab active">Plan Vitalicio</span>
+                        <span id="tab-2" class="tab">Plan Anual</span>
                     </div>
                     
                     <div class="img-plan">
-                        <img src="img/planes/planes-image.png" alt="">
-                        <img id="tab2" src="img/planes/planes-image.png" alt="">
+                        <img class="tab1" src="img/planes/planes-image.png" alt="">
+                        <img class="tab2" id="tab2" src="img/planes/planes-image.png" alt="">
                         <div class="cont-info-tabs monserrat">
-                            <div class="info-tab1">
+                            <div class="info-tab1 tab1">
                                 <div class="text-top">
                                     <p>Este plan, beneficia y da tranquilidad a usted y a los suyos, los servicios funerarios que llegarán a requerir estarán cubiertos en su totalidad para que no se preocupe por nada más.</p>
                                 </div>
                                 
-                            </div>
+                                <div class="cont-tabs-info">
+                                    <div class="tabs-info">
+                                        <div id="info-tab1" class="tab-info active">BENEFICIOS</div>
+                                        <div id="info-tab2" class="tab-info mleftl4">¿QUÉ INCLUYE EL PLAN?</div>
+                                    </div>
+                                    <div class="content-tab-info white light monserrat">
+                                        <div class="tabs-infos infos-tab1">
+                                            <ul>
+                                                <li>Es trasferible.</li>
+                                                <li>Pagos Fijos.</li>
+                                                <li>Congela el precio al contratar.</li>
+                                                <li>Seguro sobre saldos (Titular)</li>
+                                                <div class="btn-shopy">
+                                                <a href=""><img src="img/home/shopihy-button.png" alt=""></a>
+                                            </div>
+                                            </ul>
+                                            <br>
+                                            <p class="blue">Nota* Los servicios se otorgan en CDMX y algunos municipios del Estado de México.</p>
+                                        </div>
+                                        
+                                        <div class="tabs-infos infos-tab2">
+                                            <ul>
+                                                <li>Servicio de carroza para el traslado del cuerpo al lugar de velación y al panteón designado por el cliente.</li>
+                                                <li>Arreglo estético.</li>
+                                                <li>Ataúd metálico o madera medio cristal, ambos modelo estándar.</li>
+                                                <li>Capilla o equipo de velación en domicilio.</li>
+                                                <li>Asesoría de un gestor para trámites.</li>
+                                                <li>Autobús de acompañamiento (solo en inhumación)</li>
+                                                <li>Empleados para maniobras.</li>
+                                                <li>Inhumación o servicio de cremación.</li>
+                                                <li>Urna básica de madera.</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div><!--end tab 1-->
+                            
+                            <div class="info-tab2 tab2">
+                               <div class="text-top">
+                                    <p>Este plan, beneficia y da tranquilidad a usted y a los suyos, los servicios funerarios que llegarán a requerir estarán cubiertos en su totalidad para que no se preocupe por nada más.</p>
+                                </div>
+                                
+                                <div class="cont-tabs-info">
+                                    <div class="tabs-info">
+                                        <div id="info-tab3" class="tab-info active">BENEFICIOS</div>
+                                        <div id="info-tab4" class="tab-info mleftl4">¿QUÉ INCLUYE EL PLAN?</div>
+                                    </div>
+                                    <div class="content-tab-info white light monserrat">
+                                        <div class="tabs-infos infos-tab3">
+                                            <ul>
+                                                <li>Es trasferible.</li>
+                                                <li>Pagos Fijos.</li>
+                                                <li>Congela el precio al contratar.</li>
+                                                <li>Seguro sobre saldos (Titular)</li>
+                                                <div class="btn-shopy">
+                                                <a href=""><img src="img/home/shopihy-button.png" alt=""></a>
+                                            </div>
+                                            </ul>
+                                            <br>
+                                            <p class="blue">Nota* Los servicios se otorgan en CDMX y algunos municipios del Estado de México.</p>
+                                        </div>
+                                        
+                                        <div class="tabs-infos infos-tab4">
+                                            <ul>
+                                                <li>Servicio de carroza para el traslado del cuerpo al lugar de velación y al panteón designado por el cliente.</li>
+                                                <li>Arreglo estético.</li>
+                                                <li>Ataúd metálico o madera medio cristal, ambos modelo estándar.</li>
+                                                <li>Capilla o equipo de velación en domicilio.</li>
+                                                <li>Asesoría de un gestor para trámites.</li>
+                                                <li>Autobús de acompañamiento (solo en inhumación)</li>
+                                                <li>Empleados para maniobras.</li>
+                                                <li>Inhumación o servicio de cremación.</li>
+                                                <li>Urna básica de madera.</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div><!--end tab 2-->
+                            
                         </div>
                     </div> 
                 </div>

@@ -391,6 +391,7 @@ button.owl-dot {
 .planes-section {
     padding-top: 40px;
     padding-bottom: 70px;
+    background: #d4f9ff;
 }
 
 .contain-content-planes {
@@ -407,11 +408,12 @@ button.owl-dot {
 }
 
 .tab {
-    padding: 20px;
-    background: white;
-    font-size: 1.5rem;
+    padding: 15px;
+    background: #fff;
+    font-size: 1.3rem;
     color: #5c92c7;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .img-plan img{
@@ -424,13 +426,13 @@ button.owl-dot {
 }
 
 .cont-info-tabs {
-    max-width: 900px;
+    max-width: 600px;
     height: auto;
     padding: 60px;
     background: #fff;
     position: absolute;
     top: 40px;
-    right: 0px;
+    right: -650px;
     
 }
 
@@ -442,4 +444,58 @@ button.owl-dot {
     font-size: 1.4rem;
      color: #9a9797
     
+}
+
+.cont-tabs-info {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.tabs-info {
+
+}
+
+.tab-info {
+    display: inline-block;
+    padding: 15px;
+    background: #5c92c7;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tab-info.active {
+    background: #9a9797;
+    color: #222e38; 
+    padding-top: 25px;
+}
+
+.mleftl4 {
+    margin-left: -5px;
+}
+
+.content-tab-info {
+    padding: 20px;
+    background: #222e38;
+    
+}
+
+.tabs-infos {
+    padding: 20px;
+}
+
+.tab.active {
+    background: #222e38;
+    color: #fff;
+}
+
+.btn-shopy {
+    width: 150px;
+    padding-top: 20px;
+}
+
+.btn-shopy a img{
+    width: 100%;
 }
