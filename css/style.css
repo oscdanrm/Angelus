@@ -647,3 +647,46 @@ button.owl-dot {
 .back-blue2 {
     background: #d4f9ff;
 }
+
+.section-asociados {
+    margin-top: 30px;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.content-asociados {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.txtleft {
+    text-align: left;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs11 {
+    font-size: 1.1rem;
+}
+
+.pleft15 {
+    padding-left: 15px;
+}
+
+.square-noflex {
+    width: 50%;
+    height: auto;
+    
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.pdg10 {
+    padding: 10px;
+}
