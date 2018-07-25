@@ -67,6 +67,15 @@ header {
     align-items: center;
 }
 
+.slide-section .item{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
 .cont-slide {
     width: 100%;
     margin-bottom: -4px;
@@ -92,6 +101,7 @@ header {
     right: 0px;
     margin: auto;
     text-align: center;
+    z-index: 1;
 }
 
 .menu li .active {
@@ -100,11 +110,15 @@ header {
 }
 
 .gray {
-    color: #9a9797
+    color: #9a9797;
 }
 
 .blue {
     color: #5881bd;
+}
+
+.blue-up{
+    color:#0d57a8;
 }
 
 .fs45 {
@@ -149,6 +163,7 @@ header {
     position: absolute;
     bottom: -25px;
     left: 60px;
+    z-index: 1;
 }
 
 .globo-ayuda img{
@@ -335,6 +350,27 @@ header {
     z-index: 10000;
 }
 
+.cont-slide .cont-dots {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    z-index: 10000;
+    left: 0px;
+    right: 0px;
+}
+
+.cont-slide .owl-dots .owl-dot span {
+    background: #fff;
+}
+
+.cont-slide .owl-dot.active > span{
+  background: #0d57a8;
+  width: 15px;
+  height: 15px;
+    
+}
+
+
 .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
@@ -391,7 +427,7 @@ button.owl-dot {
 .planes-section {
     padding-top: 40px;
     padding-bottom: 70px;
-    background: #d4f9ff;
+    background: #96c0c9;
 }
 
 .contain-content-planes {
@@ -411,7 +447,7 @@ button.owl-dot {
     padding: 15px;
     background: #fff;
     font-size: 1.3rem;
-    color: #5c92c7;
+    color: #96c0c9;
     font-weight: 700;
     cursor: pointer;
 }
@@ -459,7 +495,7 @@ button.owl-dot {
 .tab-info {
     display: inline-block;
     padding: 15px;
-    background: #5c92c7;
+    background: #96c0c9;
     font-size: 1rem;
     color: #fff;
     font-weight: 700;
@@ -498,4 +534,116 @@ button.owl-dot {
 
 .btn-shopy a img{
     width: 100%;
+}
+
+.blue-low {
+    color: #96c0c9;
+}
+
+.slide-home {
+    width: 100%;
+    display: flex;
+    height: auto;
+    position: relative;
+}
+
+.cont-img-slide {
+    width: 100%;
+    height: auto;
+}
+
+.cont-img-slide img{
+    width: 100%;
+}
+
+
+
+.cont-block-slide {
+    position: absolute;
+    display: flex;
+}
+
+.back-white {
+    background: #fff;
+    padding: 10px;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.block-slide {
+   width: 360px;
+    height: auto;
+    padding: 0px 70px;
+}
+
+.block-slide div{
+    margin-top: 10px;
+}
+
+.fs12 {
+    font-size: 1.2rem;
+}
+
+.fs21 {
+    font-size: 2.1rem;
+}
+
+.mtop10 {
+    margin-top: 10px;
+}
+
+
+
+.heigth90 {
+    height: 130px;
+}
+
+.columns {
+    width: 40%;
+    height: auto;
+}
+
+.cont-titulo-columns {
+    text-align: center;
+    padding: 20px 0px;
+    color: #515151;
+}
+
+.rose {
+    background: #dfd4d2;
+}
+
+.cont-columns {
+    padding: 15px;
+    padding-bottom: 60px;
+}
+
+.back-blue1 {
+    background: #a0dbe5;
+}
+
+.img-colum {
+    width: 100%;
+}
+
+.img-colum img{
+    width: 100%;
+}
+
+.rose2 {
+    background: #d4c8c7;
+}
+
+.rose3 {
+    background: #dfd4d2;
+}
+
+.back-blue3 {
+    background: #bed4eb;
+}
+
+.back-blue2 {
+    background: #d4f9ff;
 }
