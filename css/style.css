@@ -22,7 +22,7 @@ header {
 
 .menu li {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 5px;
 }
 
 .menu li a{
@@ -689,4 +689,101 @@ button.owl-dot {
 
 .pdg10 {
     padding: 10px;
+}
+
+.square-asociados img{
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.cont-img-quienes {
+    width: 50%;
+}
+
+.cont-img-quienes img{
+    width: 100%;
+}
+
+.content-quienes-somos {
+    width: 1130px;
+    margin: 0px auto;
+}
+
+.cont-info-quienes {
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 270px;
+}
+
+.info-quienes {
+    position: absolute;
+    right: -30px;
+    padding: 15px;
+    width: 400px;
+    background: #fff;
+}
+
+.info-valores {
+    position: absolute;
+    left: -30px;
+    padding: 35px;
+    width: 600px;
+    background: #fff;
+}
+
+.fs30 {
+    font-size: 2.8rem;
+}
+
+.mtop15 {
+    margin-top: 25px !important;
+}
+
+.content-tabs-quienes {
+    display: flex;
+}
+
+.tab-quienes {
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tab-quienes.active {
+    background: #96c0c9 !important;
+    color: #fff !important;
+}
+
+.back-light-gray {
+    background: #efefef;
+}
+
+.back-gray {
+    background: #e4e7e1;
+}
+
+
+.cont-tabs-quienes {
+    margin-top: 20px;
+}
+
+.contain-tabs-quienes {
+    padding: 20px;
+    background: #212c37;
+    color: #fff;
+    font-weight: 200;
+}
+
+.con-tabs-quienes {
+    font-weight: 300;
+}
+
+.con-tabs-quienes ul {
+    padding-left: 15px;
 }
