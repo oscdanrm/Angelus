@@ -7,12 +7,40 @@
 header {
     width: 100%;
     overflow: hidden;
+    background: #fff;
 }
 
 .cont-menu {
     max-width: 1140px;
     padding: 20px 0px;
     margin: 0px auto;
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:100000;
+	top:0;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+	box-shadow:0px 1px 1px rgba(0,0,0,.5);
+    padding: 0px;
+    -webkit-transition: padding 0.3s; /* Safari */
+    transition: padding 0.3s;
+}
+
+.menu-fixed .menu{
+    padding: 0px;
+}
+
+.menu-fixed .cont-menu{
+    padding: 0px;
+    -webkit-transition: padding 0.3s; /* Safari */
+    transition: padding 0.3s;
+}
+
+.menu-fixed + .sticky-sec{
+    padding-top: 140px;
 }
 
 .wraper {
@@ -69,7 +97,7 @@ header {
 
 .slide-section .item{
     width: 100%;
-    height: auto;
+    height: 538px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -78,7 +106,26 @@ header {
 
 .cont-slide {
     width: 100%;
-    margin-bottom: -4px;
+    background-image: url('../img/home/slide-home.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 538px;
+}
+
+.cont-slide-grupo {
+    width: 100%;
+    background-image: url('../img/planes/slide.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 538px;
+}
+
+.cont-slide-quienes {
+    width: 100%;
+    background-image: url('../img/grupo/slide.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 538px;
 }
 
 .cont-slide img{
@@ -87,7 +134,7 @@ header {
 
 .cont-logo {
     position: absolute;
-    max-width: 284px;
+    width: 378px;
     left: 0px;
     right: 0px;
     margin: auto;
@@ -95,7 +142,7 @@ header {
 }
 
 .cont-text-slide {
-    max-width: 500px;
+    max-width: 600px;
     position: absolute;
     left: 0px;
     right: 0px;
@@ -122,7 +169,7 @@ header {
 }
 
 .fs45 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 .grafito {
@@ -150,11 +197,11 @@ header {
 }
 
 .fs20 {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 
 .fs35 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 
@@ -172,9 +219,6 @@ header {
 
 .plazas-section {
     width: 100%;
-    background: #222e38;
-    height: auto;
-    padding: 30px 0px;
 }
 
 .content-plazas {
@@ -347,7 +391,7 @@ header {
     position: absolute;
     bottom: 50px;
     left: 200px;
-    z-index: 10000;
+    z-index: 100;
 }
 
 .cont-slide .cont-dots {
@@ -446,7 +490,7 @@ button.owl-dot {
 .tab {
     padding: 15px;
     background: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #96c0c9;
     font-weight: 700;
     cursor: pointer;
@@ -464,7 +508,7 @@ button.owl-dot {
 .cont-info-tabs {
     max-width: 600px;
     height: auto;
-    padding: 60px;
+    padding: 40px;
     background: #fff;
     position: absolute;
     top: 40px;
@@ -496,7 +540,7 @@ button.owl-dot {
     display: inline-block;
     padding: 15px;
     background: #96c0c9;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
@@ -505,7 +549,7 @@ button.owl-dot {
 .tab-info.active {
     background: #9a9797;
     color: #222e38; 
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .mleftl4 {
@@ -513,13 +557,13 @@ button.owl-dot {
 }
 
 .content-tab-info {
-    padding: 20px;
+    padding: 15px;
     background: #222e38;
     
 }
 
 .tabs-infos {
-    padding: 20px;
+    padding: 15px;
 }
 
 .tab.active {
@@ -786,4 +830,39 @@ button.owl-dot {
 
 .con-tabs-quienes ul {
     padding-left: 15px;
+}
+
+.cont-globo {
+    background: #0d57a8;
+    color: #fff;
+    border-radius: 60px;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    
+}
+
+.general-section {
+    width: 100%;
+    height: auto;
+    
+}
+
+.velatorios {
+    background: url(../img/home/velatorios/image-01.png);
+    background-size: 100% 100%;
+    height: 324px;
+}
+
+.productos {
+    background: url(../img/home/productos/image-03.png);
+    background-size: 100% 100%;
+    height: 324px;
+}
+
+.servicios {
+    background: url(../img/home/servicios/image-02.png);
+    background-size: 100% 100%;
+    height: 324px;
 }

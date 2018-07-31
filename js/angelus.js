@@ -21,5 +21,16 @@ $(document).ready(function(){
             }
         }
     });
+    
+    var altura = 40;
+    console.log(altura);
+	
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() > altura ){
+			$('header').addClass('menu-fixed');
+		} else {
+			$('header').removeClass('menu-fixed');
+		}
+	});
         
 });
