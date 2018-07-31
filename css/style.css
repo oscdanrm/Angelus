@@ -571,6 +571,7 @@ button.owl-dot {
     color: #fff;
 }
 
+
 .btn-shopy {
     width: 150px;
     padding-top: 20px;
@@ -865,4 +866,35 @@ button.owl-dot {
     background: url(../img/home/servicios/image-02.png);
     background-size: 100% 100%;
     height: 324px;
+}
+.section-nichos {
+    width: 100%;
+    height: auto;
+    background: #e4e7e1;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.pink {
+    color: #c7b5b8;
+}
+
+.cont-info-nichos {
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 452px;
+}
+
+.info-nichos {
+    position: absolute;
+    left: -30px;
+    padding: 35px;
+    width: 600px;
+    background: #212c37;
+}
+
+.blue-light {
+    color: #96c0c9;∫
 }
