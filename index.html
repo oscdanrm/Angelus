@@ -17,17 +17,26 @@
             <div class="cont-menu">
                <ul class="menu">
                     <li><a class="active" href="index.html">Inicio</a></li>
-                    <li><a href="quienes-somos.html">Grupo Ángelus</a></li>
-                    <li><a href="planes.html">Productos</a></li>
-                    <li><a href="">Promociones</a></li>
-                    <li><a href="plazas-y-asociados.html">Plazas y Asociados</a></li>
+                      <li class="sub"><a>Grupo Ángelus</a>
+                        <ul class="submenu">
+                            <li><a href="quienes-somos.html">Historia</a></li>
+                            <li><a href="plazas-y-asociados.html">Red de Agencias Funerarias</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub"><a>Productos</a>
+                        <ul class="submenu wauto">
+                            <li><a href="planes.html">Membresia</a></li>
+                            <li><a href="nichos.html">Nichos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="plazas.html">Velatorios</a></li>
                     <li class="valign">
                         <a class="icons" href=""><img src="img/home/icon-comprar.png" alt="icon-comprar"></a>
                         <a class="icons" href=""><img src="img/home/icon-bolsa.png" alt="icon-bolsa"></a>
                     </li>
                     <li class="valign">
-                        <a class="icons-social" href=""><img src="img/home/icon-facebook.png" alt="icon-fb"></a>
+                        <a class="icons-social" href="https://www.facebook.com/GrupoAngelusFunerarias" target="_blank"><img src="img/home/icon-facebook.png" alt="icon-fb"></a>
                         <a class="icons-social" href=""><img src="img/home/icon-in.png" alt="icon-likedin"></a>
                     </li>
                     <li class="valign">
@@ -103,9 +112,10 @@
                </div>
            </div>
            <div class="globo-ayuda">
+               <a class="ancla" href="#contacto">
                 <div class="cont-globo monserrat">
                     ¿En qué <br> podemos ayudarte?
-                </div>
+                </div></a>
            </div>
         </section>
         
@@ -117,7 +127,7 @@
                  <div class="mtop10 mleft10"><a href=""><img src="img/home/velatorios/paloma-der.png" alt=""></a></div>
                </div>
                <div>
-                   <a href=""><img src="img/home/pleca-button.png" alt=""></a>
+                   <a href="plazas.html"><img src="img/home/pleca-button.png" alt=""></a>
                </div>
             </div>
         </section>
@@ -129,7 +139,7 @@
                  <div><p class="fs35 white monserrat bold">Productos</p></div>
                </div>
                <div class="mtop20">
-                   <a href=""><img src="img/home/pleca-button.png" alt=""></a>
+                   <a href="planes.html"><img src="img/home/pleca-button.png" alt=""></a>
                </div>
             </div>
         </section>
@@ -141,29 +151,53 @@
                  <div><p class="fs35 white monserrat bold">Servicios</p></div>
                </div>
                <div class="mtop20">
-                   <a href=""><img src="img/home/pleca-button.png" alt=""></a>
+                   <a href="servicios.html"><img src="img/home/pleca-button.png" alt=""></a>
                </div>
             </div>
         </section>
         
-        <section class="foot-section">
-           <div class="cont-footer">
-              <div class="cont-logo-footer">
-                  <img src="img/home/footer-logo.png" alt="">
-              </div>
-              
-              <div class="cont-text-footer monserrat">
-                  <p class=" blue light">5639-2455/5639-2457 y 01-800-7152-595</p>
-                  <p class="grafito light">ATENCIÓN LAS 24 HORAS</p>
-              </div>
-              
-              <div class="dflex cont-redes">
-                  <div><a href=""><img src="img/home/footer-icon-facebook.png" alt=""></a></div>
-                  <div><a href=""><img src="img/home/footer-icon-in.png" alt=""></a></div>
-              </div>
-               
-           </div>
-        </section>    
+         <section id="contacto" class="foot-section">
+                   <div class="cont-footer-square">
+                      <div class="cont-logo-footer">
+                          <img src="img/home/footer-logo.png" alt="">
+                      </div>
+
+                      <div class="cont-text-footer monserrat">
+                          <p class=" blue light">5639-2455/5639-2457 y 01-800-7152-595</p>
+                          <p class="grafito light">ATENCIÓN LAS 24 HORAS</p>
+                      </div>
+
+                      <div class="dflex cont-redes">
+                          <div><a href=""><img src="img/home/footer-icon-facebook.png" alt=""></a></div>
+                          <div><a href=""><img src="img/home/footer-icon-in.png" alt=""></a></div>
+                      </div>
+
+                   </div>
+
+                   <div class="cont-footer-square">
+                      <div class="cont-form">
+                          <form class="form-index monserrat" action="">
+                              <input class="input-text" type="text" value="" name="" placeholder="Nombre">
+                              <input class="input-text" type="text" value="" name="" placeholder="Email">
+                              <input class="input-text" type="text" value="" name="" placeholder="Teléfono">
+                              <select class="input-select" placeholder="Seleccione una opción">
+                                  <option value="">Ventas</option>
+                                  <option value="">Quejas y sugerencias</option>
+                                  <option value="">Preguntas frecuentas</option>
+                                  <option value="">Bolsa de trabajo</option>
+                                  
+                              </select>
+                              <textarea class="txt-area" name="" placeholder="Mensaje"></textarea>
+                              <button class="btn-enviar" type=submit>
+                                  Enviar
+                                  <img class="img-btn" src="img/home/arrow.png" alt="">
+                              </button>
+                          </form>
+                      </div>
+                   </div>
+
+           
+        </section>       
         
     
     </div>
